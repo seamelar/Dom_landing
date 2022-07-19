@@ -93,17 +93,22 @@ body {
 .slider__item {
     min-width: 200px;
     display: flex;
+    font-size: 18px;
+    color: #FFFFFF;
     flex-direction: column;
     row-gap: 20px;
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
+    background: linear-gradient(180deg, #1d1a14 0%, #dda046 100%);
+    border-radius: 10px;
 }
 .slider__btn {
     display: inline-block;
     background: linear-gradient(92.71deg, #C17024 0%, #DDA046 100%);
     border-radius: 40px;
-    padding: 15px;
+    padding: 10px;
+    font-size: 12px;
 }
     .slider__btn:hover {
         background: linear-gradient(92.71deg, #DDA046 0%, #C17024 100%);
