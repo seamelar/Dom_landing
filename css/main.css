@@ -23,7 +23,7 @@ body {
     width: 100%;
     padding: 10px 80px;
     user-select: none;
-    background: rgba(0,0,0,0.55);
+    background: rgba(0,0,0,0.85);
     z-index: 999;
 }
 .menu {
@@ -241,11 +241,6 @@ body {
     margin-right:5px;
 }
 
-
-
-
-
-
 #menu__toggle {
     opacity: 0;
 }
@@ -309,7 +304,7 @@ body {
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background: rgba(0,0,0,0.55);
+    background: rgba(0,0,0,0.85);
     transition-duration: .25s;
 }
 
@@ -326,12 +321,6 @@ body {
     .menu__item:hover {
         background: #DDA046;
     }
-
-
-
-
-
-
 
 /*Media*/
 @media (max-width: 950px){
