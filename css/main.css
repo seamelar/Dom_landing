@@ -359,6 +359,9 @@ body {
     .theses__container {
         grid-template-columns: initial;
     }
+    .owl-carousel .owl-stage-outer {
+        max-width: 450px;
+    }
 }
 @media (max-width: 640px) {
     .footer {
@@ -368,11 +371,8 @@ body {
         align-self: center;
         text-align: center;
     }
-    .owl-carousel .owl-stage-outer {
-        max-width: 450px;
-    }
 }
-@media (max-width: 440px) {
+@media (max-width: 470px) {
     .owl-carousel .owl-stage-outer {
         max-width: 330px;
     }
